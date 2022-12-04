@@ -32,7 +32,6 @@ url = “https;//spaliny-backedn.onrender.com/api/add/measure”
 headers = {‘Content-type:’application/json’)
 data_obj=
 {
-
 DeviceCode: get_secret("DeviceCode")
 "pm1_0_particles”:data.data[0],
 “pm2_5_particles”:data.data[1],
